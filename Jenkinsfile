@@ -17,7 +17,7 @@ pipeline {
             steps {
                 script {
                     // Build the Docker image
-                    bat 'docker'
+                    echo 'docker'
                 }
             }
         }
