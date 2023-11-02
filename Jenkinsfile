@@ -3,7 +3,7 @@ pipeline {
     agent any
 
     environment {
-        PATH='C:/Program Files/Docker/Docker/resources/bin'
+        PATH='C:/Windows/System32'
     }
 
     stages {
