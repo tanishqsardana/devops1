@@ -25,7 +25,7 @@ pipeline {
                 script {
                     // Run the Docker container
                     
-                    bat 'docker run -d -p 8501:8501 my-image'
+                    bat 'docker run -d -p 8502:8502 my-image'
                 }
             }
         }
