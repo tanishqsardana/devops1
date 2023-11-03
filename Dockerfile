@@ -9,6 +9,6 @@ RUN pip install streamlit
 
 COPY . .
 
-EXPOSE 8502
+EXPOSE 8501
 
 CMD ["streamlit", "run", "app.py"]
