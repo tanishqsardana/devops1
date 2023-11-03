@@ -24,6 +24,7 @@ pipeline {
             steps {
                 script {
                     // Run the Docker container
+                    run chmod +x services/comfy/entrypoint.sh
                     bat 'docker run -d -p 8081:102 my-image'
                 }
             }
